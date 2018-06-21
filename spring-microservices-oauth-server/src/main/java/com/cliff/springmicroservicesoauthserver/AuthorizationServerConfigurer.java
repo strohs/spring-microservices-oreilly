@@ -47,7 +47,7 @@ public class AuthorizationServerConfigurer extends AuthorizationServerConfigurer
 
     @Override
     public void configure( AuthorizationServerSecurityConfigurer security ) throws Exception {
-        //allows tokens to be delivered and validated from out token access point
+        //allows tokens to be delivered and validated from our token access point
         security.checkTokenAccess( "permitAll()" );
     }
 

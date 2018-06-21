@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringMicroservicesConfigClientApplication {
 
+    /* message is pulled from the configuration server using config-client-[ACTIVE-PROFILE].properties */
     @Value( "${message}" )
     private String message;
 

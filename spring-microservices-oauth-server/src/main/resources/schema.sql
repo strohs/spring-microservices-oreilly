@@ -1,3 +1,4 @@
+-- Automatically picked up by spring boot and loaded into our configured datastore bean
 -- used in tests that use HSQL
 create table oauth_client_details (
   client_id VARCHAR(256) PRIMARY KEY,

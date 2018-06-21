@@ -18,6 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.sql.DataSource;
 import java.security.Principal;
 
+/**
+ * THe OAuth Resource Server
+ * Houses resource owner data and can grant access to that data
+ */
 @SpringBootApplication
 @EnableResourceServer
 @RestController

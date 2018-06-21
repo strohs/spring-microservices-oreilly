@@ -28,5 +28,8 @@
         <module name="spring-microservices-zuul" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-oauth-google" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

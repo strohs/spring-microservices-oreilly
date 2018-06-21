@@ -42,7 +42,7 @@ public class SpringMicroservicesOauthClientApplication {
     @Bean
     protected OAuth2ProtectedResourceDetails resource() {
         ResourceOwnerPasswordResourceDetails details = new ResourceOwnerPasswordResourceDetails();
-        details.setAccessTokenUri( "http://localhost:9090/oauth/token" );
+        details.setAccessTokenUri( "http://localhost:9090/oauth/token" ); //resource server URI
         details.setClientId( "webapp" );
         details.setClientSecret( "websecret" );
         details.setGrantType( "password" );
