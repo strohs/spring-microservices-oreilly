@@ -1,6 +1,5 @@
 # Spring Microservices
-Oreilly's course on Spring Microservices using Netflix's OSS. This course was posted on Udemy.com and covers the 
-following technologies:
+My labs and notes from Oreilly's course on Spring Microservices using Netflix's OSS. This course covered the following technologies:
 
 * Microservices configuration Server
 * Eureka Discovery Server
